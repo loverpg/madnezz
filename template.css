@@ -87,8 +87,10 @@
     padding: 20px 20px;
     text-transform: uppercase;
     border-bottom: 1px solid var(--cor-rgba);
-}
+    #aquila .diana h1::before {padding-left: 10px; content:"The healing is a stronger magic";}
 
+}
+    
 .texto-diana {
     font-family: 'Noto Sans TC';
     font-size: 12px;
@@ -99,8 +101,6 @@
     text-align: justify;
 }
 
-.diana:hover h1{ visibility: hidden;} 
-
-.texto-diana b {font-family: "Noto Sans TC", serif; font-size: 12.5px; color: var(--cor-grupo); font-weight: 150;}
+.texto-diana b {font-family: "Noto Sans TC", serif; font-size: 12.5px; color: var(--cor-grupo); font-weight: 300;}
 
 .texto-diana i {font-family: "Noto Sans TC", serif; font-size: 12.5px; color: var(--cor-grupo); font-weight: 150;}
