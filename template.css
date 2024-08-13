@@ -79,11 +79,10 @@
 }
 
 .diana h1 {
-    visibility: visible;
     font-family: 'Space Grotesk', cursive;
     font-size: 20px;
     color: var(--cor-rgba);
-    text-align: left;
+    text-align: center;
     padding: 20px 20px;
     text-transform: uppercase;
     border-bottom: 1px solid var(--cor-rgba);
