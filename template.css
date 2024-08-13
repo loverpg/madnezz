@@ -4,10 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
 
-@font-face {
-    font-family: 'Chronos Stroke';
-    src: url('https://files.jcink.net/uploads/essicodes/ChronosSerif_Stroked.ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Space+Grotesk:wght@300..700&display=swap');
 
 .diana {
     width: 500px;
@@ -85,7 +82,7 @@
 
 .diana h1 {
     visibility: visible;
-    font-family: 'Chronos Stroke', cursive;
+    font-family: 'Space Grotesk', cursive;
     font-size: 20px;
     color: var(--cor-rgba);
     text-align: left;
@@ -96,7 +93,7 @@
 
 .diana h2 {
     visibility: hidden;
-    font-family: 'Chronos Stroke', cursive;
+    font-family: 'Space Grotesk', cursive;
     font-size: 16px;
     color: var(--cor-rgba);
     text-align: left;
