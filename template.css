@@ -87,8 +87,7 @@
     padding: 20px 20px;
     text-transform: uppercase;
     border-bottom: 1px solid var(--cor-rgba);
-    #aquila .diana h1::before {padding-left: 10px; content:"The healing is a stronger magic";}
-
+    #aquila .diana h1::before {padding-left: 10px; content:"The healing is a stronger magic";
 }
     
 .texto-diana {
