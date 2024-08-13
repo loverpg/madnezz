@@ -79,14 +79,17 @@
 }
 
 .diana h1 {
-    font-family: 'Space Grotesk', cursive;
+    visibility: visible;
+    font-family: 'Chronos Stroke', cursive;
     font-size: 20px;
     color: var(--cor-rgba);
-    text-align: center;
+    text-align: left;
     padding: 20px 20px;
     text-transform: uppercase;
     border-bottom: 1px solid var(--cor-rgba);
 }
+
+.diana:hover h1{ visibility: hidden;} 
 
 .texto-diana {
     font-family: 'Noto Sans TC';
