@@ -6,7 +6,7 @@
 
 .diana {
     width: 500px;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 45%, rgba(24.24, 24, 1) 85%, rgba(30.30, 30, 1) 90%, rgba(155, 155, 155, 0.2) 100%), var(--cor-grupo);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 25%, rgba(24.24, 24, 1) 35%, rgba(30.30, 30, 1) 50%, rgba(155, 155, 155, 0.2) 100%), var(--cor-rgba);
     background-blend-mode: multiply;
     background-size: cover;
     min-height: 200px;
@@ -14,92 +14,88 @@
     background-attachment: fixed;
     background-position-x: center;
     box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.6);
-    --cacador: #3EB595;
-    --ciborgue: #79A1F7;
-    --feiticeiro: #5b2491;
-    --gorgona: #ff8097;
-    --licantropo: #ff8d00;
-    --metamorfo: #C76969;
-    --sereiano: #80D2F2;
-    --vampiro: #821718;
-    --biotico-rgba: rgba(49, 99, 62, 0.6);
-    --cacador-rgba: rgba(62, 181, 149, 0.6);
-    --ciborgue-rgba: rgba(121, 161, 247, 0.6);
-    --feiticeiro-rgba: rgba(91, 36, 145, 0.6);
-    --gorgona-rgba: rgba(255, 128, 151, 0.6);
-    --licantropo-rgba: rgba(255, 141, 0, 0.6);
-    --metamorfo-rgba: rgba(199, 105, 105, 0.6);
-    --sereiano-rgba: rgba(128, 210, 242, 0.6);
-    --vampiro-rgba: rgba(130, 23, 24, 0.6);
-}
+    }
 
 #biotico .diana {
     --cor-grupo: #31633e;
-    --cor-rgba: rgba(49, 99, 62, 0.6);
+    --cor-rgba: rgba(1, 30, 9, 0.9);
 }
 
 #cacador .diana {
     --cor-grupo: #3EB595;
-    --cor-rgba: rgba(62, 181, 149, 0.6);
+    --cor-rgba: rgba(11, 48, 38, 0.9);
 }
 
 #ciborgue .diana {
     --cor-grupo: #79A1F7;
-    --cor-rgba: rgba(121, 161, 247, 0.6);
+    --cor-rgba: rgba(23, 38, 68, 0.9);
 }
 
 #feiticeiro .diana {
-    --cor-grupo: #a460e6;
-    --cor-rgba: rgba(164, 96, 230, 0.6);
+    --cor-grupo: #7e49b2;
+    --cor-rgba: rgba(47, 23, 70, 0.9);
 }
 
 #gorgona .diana {
     --cor-grupo: #ff8097;
-    --cor-rgba: rgba(255, 128, 151, 0.6);
+    --cor-rgba: rgba(97, 44, 53, 0.9);
 }
 
 #licantropo .diana {
     --cor-grupo: #ff8d00;
-    --cor-rgba: rgba(255, 141, 0, 0.6);
+    --cor-rgba: rgba(88, 49, 0, 0.9);
 }
 
 #metamorfo .diana {
     --cor-grupo: #C76969;
-    --cor-rgba: rgba(199, 105, 105, 0.6);
+    --cor-rgba: rgba(108, 55, 55, 0.9);
 }
 
 #sereiano .diana {
     --cor-grupo: #80D2F2;
-    --cor-rgba: rgba(221, 76, 77, 0.6);
+    --cor-rgba: rgba(37, 72, 86, 0.9);
 }
 
 #vampiro .diana {
-    --cor-grupo: #dd4c4d;
-    --cor-rgba: rgba(130, 23, 24, 0.6);
+    --cor-grupo: #c31f1f;
+    --cor-rgba: rgba(50, 1, 1, 0.9);
 }
 
 .diana h1 {
     visibility: visible;
-    font-family: 'Chronos Stroke', cursive;
+    font-family: 'Chronos Stroke';
     font-size: 20px;
-    color: var(--cor-rgba);
-    text-align: left;
+    color: var(--cor-grupo);
+    text-align: center;
     padding: 20px 20px;
     text-transform: uppercase;
     border-bottom: 1px solid var(--cor-rgba);
-    #aquila .diana h1::before {padding-left: 10px; content:"The healing is a stronger magic";
 }
-    
+
+#hilda .diana h1::before {padding-left: 10px; content:"Don't be afraid to make mistakes. Stars are born from chaos";}
+
+#aquila .diana h1::before {padding-left: 10px; content:"The healing is a stronger magic";}
+
+#khyara .diana h1::before {padding-left: 10px; content:"The dragon's fury is relentless";}
+
+#aphrodite .diana h1::before {padding-left: 10px; content:"Drops of blood are about to drip";}
+
+#amelie .diana h1::before {padding-left: 10px; content:"The hunter becomes the hunted when he underestimates his prey";}
+
+#angelina .diana h1::before {padding-left: 10px; content:"Never enter a battle without having the strength to fight";}
+
+#mihwa .diana h1::before {padding-left: 10px; content:"I'll give you the choice I never had";}
+
 .texto-diana {
     font-family: 'Noto Sans TC';
-    font-size: 12px;
-    line-height: 18px;
+    font-size: 13px;
+    line-height: 19px;
     color: #e1e1e1;
     white-space: pre-line;
     padding: 0px 60px;    
     text-align: justify;
 }
 
-.texto-diana b {font-family: "Noto Sans TC", serif; font-size: 12.5px; color: var(--cor-grupo); font-weight: 300;}
+.texto-diana b {font-family: "Noto Sans TC", serif; font-size: 13px; color: var(--cor-grupo); font-weight: 500;}
 
-.texto-diana i {font-family: "Noto Sans TC", serif; font-size: 12.5px; color: var(--cor-grupo); font-weight: 150;}
+.texto-diana i {font-family: "Noto Sans TC", serif; font-size: 13px; color: var(--cor-grupo); font-weight: 350;}
