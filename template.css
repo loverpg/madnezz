@@ -61,6 +61,11 @@
     --cor-rgba: rgba(50, 1, 1, 0.9);
 }
 
+#parademonio .diana {
+    --cor-grupo: #A3C0A2;
+    --cor-rgba: rgba(43, 70, 41, 0.9);
+}
+
 .diana h1 {
     visibility: visible;
     font-family: 'Chronos Stroke';
