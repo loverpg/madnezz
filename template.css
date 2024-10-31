@@ -91,6 +91,8 @@
 
 #mihwa .diana h1::before {padding-left: 10px; content:"I'll give you the choice I never had";}
 
+#noami .diana h1::before {padding-left: 10px; content:"Those who have repudiated their demons pester them with their angels.";}
+
 .texto-diana {
     font-family: 'Noto Sans TC';
     font-size: 13px;
