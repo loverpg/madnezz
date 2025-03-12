@@ -93,7 +93,8 @@
 
 #noami .diana h1::before {padding-left: 10px; content:"Those who have repudiated their demons pester them with their angels";}
 
-#hao .diana h1::before {padding-left: 10px; content:"I achieved my balance <br> by courting insanity";}
+#hao .diana h1::before {padding-left: 10px; content:"I achieved my balance
+    by courting insanity";}
 
 .texto-diana {
     font-family: 'Noto Sans TC';
