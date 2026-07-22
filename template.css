@@ -95,6 +95,8 @@
 
 #hao .diana h1::before {padding-left: 10px; content:"I achieved my balance by courting insanity";}
 
+#serena .diana h1::before {padding-left: 10px; content:"Born of the waves, dancing with the stars";}
+
 .texto-diana {
     font-family: 'Noto Sans TC';
     font-size: 13px;
